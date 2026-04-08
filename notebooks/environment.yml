@@ -14,6 +14,7 @@ dependencies:
   - pip:
     - intermine==1.13.0
     - ipywidgets<8  # required for display. Remove if you are not using notebook
+    - matplotlib==3.8.4
+    - pooch==1.8.1
     - omero-py==5.22.1
-    - matplotlib==3.10.8
     - jupyter==1.0.0 # if using notebooks. This can be omitted if using the script
