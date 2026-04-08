@@ -23,6 +23,4 @@ jobs:
           python-version: '3.12'
       - name: Install Conda environment with Micromamba
         uses: mamba-org/setup-micromamba@v3
-        with:
-          environment-file: binder/environment.yml
-          environment-name: binder
+        
