@@ -8,7 +8,7 @@ dependencies:
   - python==3.12.*
   - numpy==2.4.4
   - pandas==3.0.2
-  - matplotlib==3.8.4
+  - matplotlib==3.9.3
   - scikit-image==0.26.0
   - conda-forge::zeroc-ice==3.6.5
   - pip
