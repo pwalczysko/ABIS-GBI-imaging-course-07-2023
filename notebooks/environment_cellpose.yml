@@ -5,13 +5,13 @@ channels:
   - defaults
   - ome
 dependencies:
-  - python==3.9.*
+  - python==3.12.*
   - ome::zeroc-ice36-python==3.6.5
   - conda-forge::ipywidgets==8.0.4
   - pip
   - pip:
-    - omero-py==5.13.1
-    - cellpose==2.2.1
+    - omero-py==5.22.1
+    - cellpose==3.0.7
     - matplotlib==3.7.1
     - omero-cli-zarr==0.5.2
     - jupyter==1.0.0 # if using notebooks. This can be omitted if using the script
