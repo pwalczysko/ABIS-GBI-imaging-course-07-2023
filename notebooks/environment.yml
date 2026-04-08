@@ -9,7 +9,7 @@ dependencies:
   - numpy==1.24.3
   - pandas==1.5.3
   - scikit-image==0.19.3
-  - ome::zeroc-ice36-python==3.6.5
+  - conda-forge::zeroc-ice==3.6.5
   - pip
   - pip:
     - intermine==1.13.0

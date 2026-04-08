@@ -6,7 +6,7 @@ channels:
   - ome
 dependencies:
   - python==3.12.*
-  - ome::zeroc-ice36-python==3.6.5
+  - conda-forge::zeroc-ice==3.6.5
   - conda-forge::ipywidgets==8.0.4
   - pip
   - pip:
